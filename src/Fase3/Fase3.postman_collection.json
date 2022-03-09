@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "f3a2cf64-92b3-4ce5-b9ef-cf79e00c6d9a",
+		"name": "Fase3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "{{IP}}:{{port}}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{IP}}:{{port}}?name=Dani",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}?name=Dani",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}",
+					"query": [
+						{
+							"key": "name",
+							"value": "Dani"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
